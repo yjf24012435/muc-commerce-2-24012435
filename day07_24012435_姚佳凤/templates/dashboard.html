@@ -30,7 +30,7 @@
         {% endfor %}
       </select>
     </form>
-    <a href="{{ url_for('download_csv', category=category) }}">
+    <a href="{{ url_for('download_csv', category=selected_category) }}">
         <button>导出当前品类筛选数据</button>
     </a>
   </div>
