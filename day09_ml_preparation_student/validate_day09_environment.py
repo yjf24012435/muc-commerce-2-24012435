@@ -1,4 +1,6 @@
 """第9天零基础版环境与输入检查。"""
+
+
 from importlib.util import find_spec
 from pathlib import Path
 import sys
